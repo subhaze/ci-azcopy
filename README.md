@@ -1,0 +1,1 @@
+Dockerfile for building `azcopy` based on `microsoft/dotnet:2.1-runtime`
