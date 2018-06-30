@@ -7,4 +7,3 @@ RUN wget -O /tmp/azcopy/azcopy.tar.gz https://aka.ms/downloadazcopyprlinux
 RUN tar -xf /tmp/azcopy/azcopy.tar.gz -C /tmp/azcopy
 RUN /tmp/azcopy/install.sh
 RUN rm -rf /tmp/azcopy
-RUN rm /tmp/azcopy/azcopy.tar.gz
